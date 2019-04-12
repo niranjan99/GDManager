@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "GDManager"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "this is test summery of GDManager"
   s.description  = "this is test description of GDManager"
 
@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   s.author             = { "niranjan99" => "vaddepalli.niranjan@gmail.com" }
   
   s.platform     = :ios
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "12.1"
   s.swift_version = '5.0'
-  s.source = {:git => 'https://github.com/niranjan99/GDManager.git', :tag => s.version.to_s}
+  s.source = {:git => 'https://github.com/niranjan99/GDManager.git', :tag => s.version}
   s.source_files  = "GDManager/**/*.{swift}"
   s.static_framework = true
   s.resources = "GDManager/Frameworks/*.framework"
