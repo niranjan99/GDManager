@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "GDManager"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "this is test summery of GDManager"
   s.description  = "this is test description of GDManager"
 
@@ -19,8 +19,6 @@ Pod::Spec.new do |s|
   s.source_files  = "GDManager/**/*"
   s.exclude_files = "GDManager/*.plist
   s.static_framework = true
-  s.resources = "GDManager/Frameworks/*.framework"
-   
  # s.preserve_paths = 'GDManager/Frameworks/*.framework'
    s.ios.vendored_frameworks = 'GDManager/Frameworks/Czm_GenericDevice_DataBaseManagement_Interfaces.framework', 'GDManager/Frameworks/Czm_GenericDevice_DataBaseManagement.framework', 'GDManager/Frameworks/Czm_GenericDevice_DataManagement_Interfaces.framework', 'GDManager/Frameworks/Czm_GenericDevice_DataManagement.framework','GDManager/Frameworks/Czm_GenericDevice_Infrastructure_Interfaces.framework','GDManager/Frameworks/Czm_GenericDevice_Infrastructure.framework','GDManager/Frameworks/DeviceDataManagement_Interfaces.framework','GDManager/Frameworks/DeviceDataManagement.framework'
 
