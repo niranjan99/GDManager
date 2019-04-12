@@ -1,0 +1,6 @@
+framework module Czm_GenericDevice_Infrastructure {
+  umbrella header "Czm_GenericDevice_Infrastructure.h"
+
+  export *
+  module * { export * }
+}

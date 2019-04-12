@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92AFC17C22605FE800E8A5EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AFC17B22605FE800E8A5EC /* AppDelegate.swift */; };
+		92AFC17E22605FE800E8A5EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AFC17D22605FE800E8A5EC /* ViewController.swift */; };
+		92AFC18122605FE800E8A5EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AFC17F22605FE800E8A5EC /* Main.storyboard */; };
+		92AFC18322605FE900E8A5EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AFC18222605FE900E8A5EC /* Assets.xcassets */; };
+		92AFC18622605FE900E8A5EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AFC18422605FE900E8A5EC /* LaunchScreen.storyboard */; };
+		92AFC1B12260635E00E8A5EC /* Czm_GenericDevice_DataBaseManagement_Interfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A5226060DB00E8A5EC /* Czm_GenericDevice_DataBaseManagement_Interfaces.framework */; };
+		92AFC1B22260635E00E8A5EC /* Czm_GenericDevice_DataBaseManagement_Interfaces.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A5226060DB00E8A5EC /* Czm_GenericDevice_DataBaseManagement_Interfaces.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92AFC1B32260635E00E8A5EC /* Czm_GenericDevice_DataBaseManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A4226060DB00E8A5EC /* Czm_GenericDevice_DataBaseManagement.framework */; };
+		92AFC1B42260635E00E8A5EC /* Czm_GenericDevice_DataBaseManagement.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A4226060DB00E8A5EC /* Czm_GenericDevice_DataBaseManagement.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92AFC1B52260635E00E8A5EC /* Czm_GenericDevice_DataManagement_Interfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A3226060DB00E8A5EC /* Czm_GenericDevice_DataManagement_Interfaces.framework */; };
+		92AFC1B62260635E00E8A5EC /* Czm_GenericDevice_DataManagement_Interfaces.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A3226060DB00E8A5EC /* Czm_GenericDevice_DataManagement_Interfaces.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92AFC1B72260635E00E8A5EC /* Czm_GenericDevice_DataManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A8226060DB00E8A5EC /* Czm_GenericDevice_DataManagement.framework */; };
+		92AFC1B82260635E00E8A5EC /* Czm_GenericDevice_DataManagement.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A8226060DB00E8A5EC /* Czm_GenericDevice_DataManagement.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92AFC1B92260635E00E8A5EC /* Czm_GenericDevice_Infrastructure_Interfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A6226060DB00E8A5EC /* Czm_GenericDevice_Infrastructure_Interfaces.framework */; };
+		92AFC1BA2260635E00E8A5EC /* Czm_GenericDevice_Infrastructure_Interfaces.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A6226060DB00E8A5EC /* Czm_GenericDevice_Infrastructure_Interfaces.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92AFC1BB2260635E00E8A5EC /* Czm_GenericDevice_Infrastructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A1226060DB00E8A5EC /* Czm_GenericDevice_Infrastructure.framework */; };
+		92AFC1BC2260635E00E8A5EC /* Czm_GenericDevice_Infrastructure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A1226060DB00E8A5EC /* Czm_GenericDevice_Infrastructure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92AFC1BD2260635E00E8A5EC /* DeviceDataManagement_Interfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A7226060DB00E8A5EC /* DeviceDataManagement_Interfaces.framework */; };
+		92AFC1BE2260635E00E8A5EC /* DeviceDataManagement_Interfaces.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A7226060DB00E8A5EC /* DeviceDataManagement_Interfaces.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92AFC1BF2260635E00E8A5EC /* DeviceDataManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A2226060DB00E8A5EC /* DeviceDataManagement.framework */; };
+		92AFC1C02260635E00E8A5EC /* DeviceDataManagement.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92AFC1A2226060DB00E8A5EC /* DeviceDataManagement.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92AFC1C12260635E00E8A5EC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				92AFC1BC2260635E00E8A5EC /* Czm_GenericDevice_Infrastructure.framework in Embed Frameworks */,
+				92AFC1C02260635E00E8A5EC /* DeviceDataManagement.framework in Embed Frameworks */,
+				92AFC1B22260635E00E8A5EC /* Czm_GenericDevice_DataBaseManagement_Interfaces.framework in Embed Frameworks */,
+				92AFC1B42260635E00E8A5EC /* Czm_GenericDevice_DataBaseManagement.framework in Embed Frameworks */,
+				92AFC1BA2260635E00E8A5EC /* Czm_GenericDevice_Infrastructure_Interfaces.framework in Embed Frameworks */,
+				92AFC1BE2260635E00E8A5EC /* DeviceDataManagement_Interfaces.framework in Embed Frameworks */,
+				92AFC1B82260635E00E8A5EC /* Czm_GenericDevice_DataManagement.framework in Embed Frameworks */,
+				92AFC1B62260635E00E8A5EC /* Czm_GenericDevice_DataManagement_Interfaces.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		92AFC17822605FE800E8A5EC /* GDManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AFC17B22605FE800E8A5EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92AFC17D22605FE800E8A5EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92AFC18022605FE800E8A5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92AFC18222605FE900E8A5EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92AFC18522605FE900E8A5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92AFC18722605FE900E8A5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92AFC1A1226060DB00E8A5EC /* Czm_GenericDevice_Infrastructure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Czm_GenericDevice_Infrastructure.framework; sourceTree = "<group>"; };
+		92AFC1A2226060DB00E8A5EC /* DeviceDataManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DeviceDataManagement.framework; sourceTree = "<group>"; };
+		92AFC1A3226060DB00E8A5EC /* Czm_GenericDevice_DataManagement_Interfaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Czm_GenericDevice_DataManagement_Interfaces.framework; sourceTree = "<group>"; };
+		92AFC1A4226060DB00E8A5EC /* Czm_GenericDevice_DataBaseManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Czm_GenericDevice_DataBaseManagement.framework; sourceTree = "<group>"; };
+		92AFC1A5226060DB00E8A5EC /* Czm_GenericDevice_DataBaseManagement_Interfaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Czm_GenericDevice_DataBaseManagement_Interfaces.framework; sourceTree = "<group>"; };
+		92AFC1A6226060DB00E8A5EC /* Czm_GenericDevice_Infrastructure_Interfaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Czm_GenericDevice_Infrastructure_Interfaces.framework; sourceTree = "<group>"; };
+		92AFC1A7226060DB00E8A5EC /* DeviceDataManagement_Interfaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DeviceDataManagement_Interfaces.framework; sourceTree = "<group>"; };
+		92AFC1A8226060DB00E8A5EC /* Czm_GenericDevice_DataManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Czm_GenericDevice_DataManagement.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92AFC17522605FE800E8A5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AFC1BB2260635E00E8A5EC /* Czm_GenericDevice_Infrastructure.framework in Frameworks */,
+				92AFC1BF2260635E00E8A5EC /* DeviceDataManagement.framework in Frameworks */,
+				92AFC1B12260635E00E8A5EC /* Czm_GenericDevice_DataBaseManagement_Interfaces.framework in Frameworks */,
+				92AFC1B32260635E00E8A5EC /* Czm_GenericDevice_DataBaseManagement.framework in Frameworks */,
+				92AFC1B92260635E00E8A5EC /* Czm_GenericDevice_Infrastructure_Interfaces.framework in Frameworks */,
+				92AFC1BD2260635E00E8A5EC /* DeviceDataManagement_Interfaces.framework in Frameworks */,
+				92AFC1B72260635E00E8A5EC /* Czm_GenericDevice_DataManagement.framework in Frameworks */,
+				92AFC1B52260635E00E8A5EC /* Czm_GenericDevice_DataManagement_Interfaces.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92AFC16F22605FE800E8A5EC = {
+			isa = PBXGroup;
+			children = (
+				92AFC17A22605FE800E8A5EC /* GDManager */,
+				92AFC17922605FE800E8A5EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92AFC17922605FE800E8A5EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92AFC17822605FE800E8A5EC /* GDManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92AFC17A22605FE800E8A5EC /* GDManager */ = {
+			isa = PBXGroup;
+			children = (
+				92AFC1A0226060D000E8A5EC /* Frameworks */,
+				92AFC17B22605FE800E8A5EC /* AppDelegate.swift */,
+				92AFC17D22605FE800E8A5EC /* ViewController.swift */,
+				92AFC17F22605FE800E8A5EC /* Main.storyboard */,
+				92AFC18222605FE900E8A5EC /* Assets.xcassets */,
+				92AFC18422605FE900E8A5EC /* LaunchScreen.storyboard */,
+				92AFC18722605FE900E8A5EC /* Info.plist */,
+			);
+			path = GDManager;
+			sourceTree = "<group>";
+		};
+		92AFC1A0226060D000E8A5EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92AFC1A5226060DB00E8A5EC /* Czm_GenericDevice_DataBaseManagement_Interfaces.framework */,
+				92AFC1A4226060DB00E8A5EC /* Czm_GenericDevice_DataBaseManagement.framework */,
+				92AFC1A3226060DB00E8A5EC /* Czm_GenericDevice_DataManagement_Interfaces.framework */,
+				92AFC1A8226060DB00E8A5EC /* Czm_GenericDevice_DataManagement.framework */,
+				92AFC1A6226060DB00E8A5EC /* Czm_GenericDevice_Infrastructure_Interfaces.framework */,
+				92AFC1A1226060DB00E8A5EC /* Czm_GenericDevice_Infrastructure.framework */,
+				92AFC1A7226060DB00E8A5EC /* DeviceDataManagement_Interfaces.framework */,
+				92AFC1A2226060DB00E8A5EC /* DeviceDataManagement.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92AFC17722605FE800E8A5EC /* GDManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92AFC18A22605FE900E8A5EC /* Build configuration list for PBXNativeTarget "GDManager" */;
+			buildPhases = (
+				92AFC17422605FE800E8A5EC /* Sources */,
+				92AFC17522605FE800E8A5EC /* Frameworks */,
+				92AFC17622605FE800E8A5EC /* Resources */,
+				92AFC1C12260635E00E8A5EC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDManager;
+			productName = GDManager;
+			productReference = 92AFC17822605FE800E8A5EC /* GDManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92AFC17022605FE800E8A5EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Carin;
+				TargetAttributes = {
+					92AFC17722605FE800E8A5EC = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 92AFC17322605FE800E8A5EC /* Build configuration list for PBXProject "GDManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92AFC16F22605FE800E8A5EC;
+			productRefGroup = 92AFC17922605FE800E8A5EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92AFC17722605FE800E8A5EC /* GDManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92AFC17622605FE800E8A5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AFC18622605FE900E8A5EC /* LaunchScreen.storyboard in Resources */,
+				92AFC18322605FE900E8A5EC /* Assets.xcassets in Resources */,
+				92AFC18122605FE800E8A5EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92AFC17422605FE800E8A5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AFC17E22605FE800E8A5EC /* ViewController.swift in Sources */,
+				92AFC17C22605FE800E8A5EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92AFC17F22605FE800E8A5EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AFC18022605FE800E8A5EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92AFC18422605FE900E8A5EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AFC18522605FE900E8A5EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92AFC18822605FE900E8A5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92AFC18922605FE900E8A5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92AFC18B22605FE900E8A5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 527XE45ZDW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GDManager",
+					"$(PROJECT_DIR)/GDManager/Frameworks",
+				);
+				INFOPLIST_FILE = GDManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.czm.carin.GDManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92AFC18C22605FE900E8A5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 527XE45ZDW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GDManager",
+					"$(PROJECT_DIR)/GDManager/Frameworks",
+				);
+				INFOPLIST_FILE = GDManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.czm.carin.GDManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92AFC17322605FE800E8A5EC /* Build configuration list for PBXProject "GDManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AFC18822605FE900E8A5EC /* Debug */,
+				92AFC18922605FE900E8A5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92AFC18A22605FE900E8A5EC /* Build configuration list for PBXNativeTarget "GDManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AFC18B22605FE900E8A5EC /* Debug */,
+				92AFC18C22605FE900E8A5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92AFC17022605FE800E8A5EC /* Project object */;
+}

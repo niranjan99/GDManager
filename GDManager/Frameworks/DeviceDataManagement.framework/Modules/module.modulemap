@@ -1,0 +1,4 @@
+framework module DeviceDataManagement {
+  header "DeviceDataManagement-Swift.h"
+  requires objc
+}

@@ -1,0 +1,11 @@
+framework module DeviceDataManagement_Interfaces {
+  umbrella header "DeviceDataManagement_Interfaces.h"
+
+  export *
+  module * { export * }
+}
+
+module DeviceDataManagement_Interfaces.Swift {
+    header "DeviceDataManagement_Interfaces-Swift.h"
+    requires objc
+}

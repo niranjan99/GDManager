@@ -1,0 +1,11 @@
+framework module Czm_GenericDevice_DataManagement_Interfaces {
+  umbrella header "Czm_GenericDevice_DataManagement_Interfaces.h"
+
+  export *
+  module * { export * }
+}
+
+module Czm_GenericDevice_DataManagement_Interfaces.Swift {
+    header "Czm_GenericDevice_DataManagement_Interfaces-Swift.h"
+    requires objc
+}
