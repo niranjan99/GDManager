@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.resources = "GDManager/Frameworks/*.framework"
    
-  s.preserve_paths = 'GDManager/Frameworks/*.framework'
+ # s.preserve_paths = 'GDManager/Frameworks/*.framework'
 
- # s.vendored_frameworks = 'Czm_GenericDevice_DataBaseManagement_Interfaces.framework', 'Czm_GenericDevice_DataBaseManagement.framework', 'Czm_GenericDevice_DataManagement_Interfaces.framework', 'Czm_GenericDevice_DataManagement.framework','Czm_GenericDevice_Infrastructure_Interfaces.framework','Czm_GenericDevice_Infrastructure.framework','DeviceDataManagement_Interfaces.framework','DeviceDataManagement.framework'
+  s.vendored_frameworks = 'Czm_GenericDevice_DataBaseManagement_Interfaces.framework', 'Czm_GenericDevice_DataBaseManagement.framework', 'Czm_GenericDevice_DataManagement_Interfaces.framework', 'Czm_GenericDevice_DataManagement.framework','Czm_GenericDevice_Infrastructure_Interfaces.framework','Czm_GenericDevice_Infrastructure.framework','DeviceDataManagement_Interfaces.framework','DeviceDataManagement.framework'
 
    # s.exclude_files = "Classes/Exclude"
    # s.public_header_files = "Classes/**/*.h"
